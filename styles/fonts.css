@@ -1,0 +1,17 @@
+@font-face {
+    font-family: New York;
+    src: url(/components/font/New\ York/) format('tff')  ;
+font-weight: normal;
+font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family:Noto Music ;
+    src: url(/components/font/Noto_Music/NotoMusic-Regular.ttf) format('tff')  ;
+font-weight: normal;
+font-style: normal;
+
+}

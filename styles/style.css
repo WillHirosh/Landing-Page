@@ -1,0 +1,116 @@
+body {
+
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: Noto Music;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: cornflowerblue;
+    transition: 0.5s all;
+}
+
+
+#title {
+    flex-direction: column;
+    line-height: 1rem;
+}
+
+li {
+    display: inline-block;
+    line-height: 1rem;
+    margin: 1rem;
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 1px;
+    border-radius: 20px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+h1 {
+    font: weight 200px;
+}
+
+main {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: New York;
+}
+
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+
+p {
+    line-height: 21px;
+    max-height: 500px;
+    font-family: New York;
+}
+
+
+img {
+    width: 550px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+form [type="submit"] {
+    height: 45px;
+    width: 70%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    display:inline-block;
+
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
